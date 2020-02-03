@@ -7,7 +7,7 @@
     </requirements>
     <command><![CDATA[
         env &&
-        /Users/jmarie/Documents/git-repo/galaxy/database/dependencies/_conda/envs/mulled-v1-9d6d2b3f877288d711e5ff4b3ffe015dbdc39061022e52af33849d86b1c45ff1/bin/python $__tool_directory__/importer2.py $output $__app__.config.output_size_limit
+        python $__tool_directory__/importer2.py $output $__app__.config.output_size_limit
     ]]></command>
     <inputs action="https://genome.ucsc.edu/cgi-bin/hgTables" check_values="false" method="get">
         <display>go to UCSC Table Browser $GALAXY_URL</display>

@@ -6,7 +6,7 @@
       <requirement type="package" version="5.6.0">omero-py</requirement>
     </requirements>
     <command><![CDATA[
-        /Users/jmarie/Documents/git-repo/galaxy/database/dependencies/_conda/envs/mulled-v1-9d6d2b3f877288d711e5ff4b3ffe015dbdc39061022e52af33849d86b1c45ff1/bin/python $__tool_directory__/importer.py
+        python $__tool_directory__/importer.py
     ]]></command>
     <outputs>
         <!--<data format="auto" name="output_file1" from_work_dir="plane.npy"/>-->
